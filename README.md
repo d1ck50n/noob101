@@ -1,2 +1,2 @@
-# funtime101
-Noob on the road
+# noob101
+Noob on the road.
