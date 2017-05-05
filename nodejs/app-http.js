@@ -1,7 +1,7 @@
 // This sample use native node http module
 
 var http = require("http");
-var port = 8081;
+var port = 3000;
 
 http.createServer(requestListener).
     listen(port);
