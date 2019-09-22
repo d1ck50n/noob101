@@ -1,0 +1,29 @@
+security.user.password=password
+
+# MONGODB (MongoProperties)
+spring:
+    data:
+        mongodb:
+            host: localhost
+            port: 27017
+            uri: mongodb://localhost/
+            database: vegapp
+            repositories.enabled: true
+
+# HTTP encoding (HttpEncodingProperties)
+spring:
+    http:
+        encoding:
+            charset: UTF-8
+            enabled: true
+            force: true
+
+# MANAGEMENT HTTP SERVER (ManagementServerProperties)
+management:
+    port:
+    address:
+    context-path:
+    add-application-context-header:
+    security.enabled: true
+    security.role: ADMIN
+    security.sessions: stateless

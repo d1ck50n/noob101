@@ -1,0 +1,14 @@
+server:
+    port: 8081
+
+spring:
+    application:
+        name: spring-data-jpa
+    datasource:
+        url: jdbc:mysql://localhost/sample_data
+        username: root
+        password: password
+        driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    org.springframework: DEBUG
